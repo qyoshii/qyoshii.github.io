@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f7f7f7 url("images/bg01.png");
+		background: rgb(30, 30, 30) url("images/bg01.png");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #474747;
+		color: #cccccc;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -2532,7 +2532,7 @@ input, select, textarea {
 	#header {
 		text-align: center;
 		padding: 3em 0 0 0;
-		background-color: #fff;
+		background-color: rgb(30, 30, 30);
 		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
 		background-position: top left,					top left,					top left;
 		background-size: 100% 6em,					100% 6em,					auto;
@@ -2641,7 +2641,7 @@ input, select, textarea {
 		background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
 		background-color: #333;
 		border-radius: 5px;
-		color: #fff;
+		color: rgb(50, 50, 50);
 		min-width: 10em;
 		padding: 1em 0;
 		text-align: center;
@@ -2724,11 +2724,11 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background: #fff;
+			background: rgb(50, 50, 50);
 		}
 
 		.wrapper.style2 {
-			background-color: #fff;
+			background-color: rgb(50, 50, 50);
 			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
 			background-position: top left,						bottom left,					top left;
 			background-size: 100% 6em,						100% 6em,						auto;
